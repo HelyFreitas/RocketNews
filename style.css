@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.content {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #121214;
+    position: relative;
+}
+
+.content2 {
+    position: absolute;  
+    width: 647px;
+    height: 117px;
+    left: 40px;
+    top: 236px;
+  }    
+
+#logo {
+    width: 389px;
+    height: 94px;
+    margin-top: 40px;
+    margin-left: 48px;
+}    
+
+.text{
+    max-width: 500px;
+}
+
+h3 {
+  color: #08c05e;  
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+}  
+
+.description {
+  color: #ffffff;  
+  font-size: "League Spartan";
+}  
+
+.form{
+    margin-top: 37px;
+}
+
+.insertE {
+  color: #a8a8a8;  
+  margin-bottom: 17px;
+}  
+
+.title {
+  color: #ffffff;  
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "League Spartan" , sans-serif;
+}  
+
+
+input {
+  height: 48px;  
+  font-family: "Work Sans", sans-serif;
+  width: 622px;
+  border-left: 4px solid #04d361 ;
+  padding-left: 15px;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}  
+
+button {
+  height: 48px;  
+  width: 48px;
+  position: absolute;
+  border: none;
+  background-color: #8257E5;
+  color: #FFFFFF;
+  cursor: pointer;
+}  
+
+button:hover{
+    filter: brightness(0.8);
+    transition: 0.2s;
+}    
+
+a {
+  position: absolute;  
+  width: 196px;
+  height: 24px;
+  left: 48px;
+  top: 522px;
+  text-decoration: none;
+  color: #8257E5;
+}  
+
+.img1 {
+  background: url("./image1.png") no-repeat center;  
+  width: 100%;
+  background-size: cover;
+}  
